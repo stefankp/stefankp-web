@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,12 +52,17 @@
         padding: 2rem 1rem;
       }
 
-      .main > * + * {
+      header {
+        margin-bottom: 2rem;
+      }
+
+      section > * + * {
         margin-top: 1rem;
       }
 
       img {
         border-radius: 50%;
+        display: block;
         margin: 0 auto;
         max-width: 15ch;
       }
@@ -77,7 +82,7 @@
 
       footer {
         font-size: 0.75rem;
-        padding: 2rem 0;
+        margin: 2rem 0 0;
         text-align: center;
       }
 
@@ -96,23 +101,27 @@
 
   <body>
     <article class="main">
-      <img src="https://avatars2.githubusercontent.com/u/3661203?s=460&v=4" alt="Stefan" />
+      <header>
+        <img src="https://avatars2.githubusercontent.com/u/3661203?s=460&v=4" alt="Stefan" />
+      </header>
 
-      <p>
-        Hi, I'm <strong>Stefan</strong>.
-      </p>
+      <section>
+        <p>
+          Hi, I'm <strong>Stefan</strong>.
+        </p>
 
-      <p>
-        I have been working as a <strong>Software Developer</strong> since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically.
-      </p>
+        <p>
+          I have been working as a <strong>Software Developer</strong> since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically.
+        </p>
 
-      <p>
-        I started a non-profit right after school, co-founded an ebook publisher during university and worked in venture capital. After realizing that my real passion has always been creative work, I decided to focus on software development and worked as freelancer for companies like Lufthansa, Edenspiekermann and McKinsey.
-      </p>
+        <p>
+          I started a non-profit right after school, co-founded an ebook publisher during university and worked in venture capital. After realizing that my real passion has always been creative work, I decided to focus on software development and worked as freelancer for companies like Lufthansa, Edenspiekermann and McKinsey.
+        </p>
 
-      <p>
-        My current role is leading <a href="https://www.codeandco.com" target="_blank" rel="noopener noreferrer">code&nbsp;&&nbsp;co.&nbsp;Labs</a>.
-      </p>
+        <p>
+          My current role is leading <a href="https://www.codeandco.com" target="_blank" rel="noopener noreferrer">code&nbsp;&&nbsp;co.&nbsp;Labs</a>.
+        </p>
+      </section>
 
       <footer>
         <a href="https://www.github.com/stefankp">GitHub</a>
