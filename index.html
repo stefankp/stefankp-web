@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
       Stefan KP
     </title>
+
+    <meta name="description" content="Software Developer from Berlin.">
+
+    <meta property="og:title" content="Stefan KP">
+    <meta property="og:description" content="Software Developer from Berlin.">
+
+    <meta name="twitter:title" content="Stefan KP">
+    <meta name="twitter:description" content="Software Developer from Berlin.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
 
     <style>
       * {
@@ -21,7 +37,7 @@
 
       body {
         background-color: hsl(0, 0%, 98%);
-        color: hsl(0, 0%, 5%);
+        color: hsl(0, 0%, 10%);
         font-family: "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",  "Open Sans", "Helvetica Neue", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         font-size: 1rem;
       }
@@ -31,30 +47,24 @@
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
-        max-width: 60ch;
+        max-width: 55ch;
         min-height: 100vh;
-        padding: 1rem;
+        padding: 2rem 1rem;
       }
 
       .main > * + * {
         margin-top: 1rem;
       }
 
+      img {
+        border-radius: 50%;
+        margin: 0 auto;
+        max-width: 15ch;
+        width: 100%;
+      }
+
       p {
         line-height: 1.5;
-      }
-
-      ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      li {
-        display: inline-block;
-      }
-
-      li + li {
-        margin-left: 1rem;
       }
 
       a {
@@ -65,11 +75,30 @@
       a:hover {
         text-decoration: underline;
       }
+
+      footer {
+        font-size: 0.75rem;
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      footer a {
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
+
+      @media (min-width: 768px) {
+        html {
+          font-size: 24px;
+        }
+      }
     </style>
   </head>
 
   <body>
     <article class="main">
+      <img src="https://avatars2.githubusercontent.com/u/3661203?s=460&v=4" alt="Stefan" />
+
       <p>
         Hi, I'm <strong>Stefan</strong>.
       </p>
@@ -79,18 +108,18 @@
       </p>
 
       <p>
-        I started a non-profit right after school, co-founded an ebook publisher during university and worked in venture capital. After realizing that my real passion has always been creative work, I decided to focus on software development. I worked as freelancer for small startups and large corporations.
+        I started a non-profit right after school, co-founded an ebook publisher during university and worked in venture capital. After realizing that my real passion has always been creative work, I decided to focus on software development and worked as freelancer for companies like Lufthansa, Edenspiekermann and McKinsey.
       </p>
 
       <p>
-        My current role is leading <a href="https://www.codeandco.com">code & co. Labs</a>.
+        My current role is leading <a href="https://www.codeandco.com" target="_blank" rel="noopener noreferrer">code&nbsp;&&nbsp;co.&nbsp;Labs</a>.
       </p>
 
-      <ul>
-        <li><a href="https://www.github.com/stefankp">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/stefankp">LinkedIn</a></li>
-        <li><a href="https://www.twitter.com/stefankp">Twitter</a></li>
-      </ul>
+      <footer>
+        <a href="https://www.github.com/stefankp">GitHub</a>
+        <a href="https://www.linkedin.com/in/stefankp">LinkedIn</a>
+        <a href="https://www.twitter.com/stefankp">Twitter</a>
+      </footer>
     </article>
   </body>
 </html>
