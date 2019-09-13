@@ -42,22 +42,33 @@
         font-size: 1rem;
       }
 
-      .main {
+      main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
         max-width: 55ch;
         min-height: 100vh;
-        padding: 2rem 1rem;
+        padding: 1rem;
       }
 
       header {
         margin-bottom: 2rem;
       }
 
-      section > * + * {
+      article > * + * {
         margin-top: 1rem;
+      }
+
+      footer {
+        font-size: 0.75rem;
+        margin: 2rem 0 0;
+        text-align: center;
+      }
+
+      footer a {
+        display: inline-block;
+        margin: 0 0.5rem;
       }
 
       img {
@@ -80,17 +91,6 @@
         text-decoration: underline;
       }
 
-      footer {
-        font-size: 0.75rem;
-        margin: 2rem 0 0;
-        text-align: center;
-      }
-
-      footer a {
-        display: inline-block;
-        margin: 0 0.5rem;
-      }
-
       @media (min-width: 768px) {
         html {
           font-size: 24px;
@@ -100,12 +100,12 @@
   </head>
 
   <body>
-    <article class="main">
+    <main>
       <header>
         <img src="https://avatars2.githubusercontent.com/u/3661203?s=460&v=4" alt="Stefan" />
       </header>
 
-      <section>
+      <article>
         <p>
           Hi, I'm <strong>Stefan</strong>.
         </p>
@@ -121,13 +121,13 @@
         <p>
           My current role is leading <a href="https://www.codeandco.com" target="_blank" rel="noopener noreferrer">code&nbsp;&&nbsp;co.&nbsp;Labs</a>.
         </p>
-      </section>
+      </article>
 
       <footer>
         <a href="https://www.github.com/stefankp">GitHub</a>
         <a href="https://www.linkedin.com/in/stefankp">LinkedIn</a>
         <a href="https://www.twitter.com/stefankp">Twitter</a>
       </footer>
-    </article>
+    </main>
   </body>
 </html>
