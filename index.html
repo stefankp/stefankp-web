@@ -7,21 +7,50 @@
     <title>
       Stefan KP
     </title>
-    <meta name="description" content="I have been working as a Full Stack Software Engineer since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically." />
+    <meta
+      name="description"
+      content="I have been working as a Full Stack Software Engineer since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically."
+    />
 
     <meta property="og:title" content="Stefan KP" />
-    <meta property="og:description" content="I have been working as a Full Stack Software Engineer since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically." />
+    <meta
+      property="og:description"
+      content="I have been working as a Full Stack Software Engineer since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically."
+    />
 
     <meta name="twitter:title" content="Stefan KP" />
-    <meta name="twitter:description" content="I have been working as a Full Stack Software Engineer since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically." />
+    <meta
+      name="twitter:description"
+      content="I have been working as a Full Stack Software Engineer since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically."
+    />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1">
-    <link rel="manifest" href="/site.webmanifest?v=1">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png?v=1"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png?v=1"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png?v=1"
+    />
+    <link rel="manifest" href="/site.webmanifest?v=1" />
 
     <style>
       :root {
+        --font-family: "system-ui", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+          "Droid Sans", "Open Sans", "Noto Sans", "Helvetica Neue", "Arial",
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+
         --background: #fafafa;
         --text: #2c2c2c;
         --link: #0d66d0;
@@ -40,7 +69,7 @@
       body {
         background-color: var(--background);
         color: var(--text);
-        font-family: "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",  "Open Sans", "Helvetica Neue", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-family: var(--font-family);
         font-size: 1rem;
       }
 
@@ -48,9 +77,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+      }
+
+      article {
         margin: 0 auto;
-        max-width: 55ch;
-        min-height: 100vh;
+        max-width: 56ch;
         padding: 2rem 1rem;
       }
 
@@ -64,7 +95,7 @@
 
       footer {
         font-size: 0.75rem;
-        margin: 2rem 0 0;
+        padding: 2rem 1rem;
         text-align: center;
       }
 
@@ -103,33 +134,43 @@
 
   <body>
     <main>
-      <header>
-        <img src="https://avatars2.githubusercontent.com/u/3661203?s=460&v=4" alt="Stefan KP" />
-      </header>
+      <article>
+        <header>
+          <img
+            src="https://avatars2.githubusercontent.com/u/3661203?s=460&v=4"
+            alt="Stefan KP"
+          />
+        </header>
 
-      <section>
-        <p>
-          Hi, I'm <strong>Stefan</strong>.
-        </p>
+        <section>
+          <p>Hi, I'm <strong>Stefan</strong>.</p>
 
-        <p>
-          I have been working as a <strong>Full Stack Software Engineer</strong> since 2014. I enjoy writing Javascript and Ruby. I sort CSS attributes alphabetically.
-        </p>
+          <p>
+            I have been working as a
+            <strong>Full Stack Software Engineer</strong> since 2014. I enjoy
+            writing Javascript and Ruby. I sort CSS attributes alphabetically.
+          </p>
 
-        <p>
-          I started a non-profit right after school, co-founded an ebook publisher during university and worked in venture capital. After realizing that my real passion has always been creative work, I decided to focus on software development and worked as freelancer for companies like Lufthansa, Edenspiekermann and McKinsey.
-        </p>
+          <p>
+            I started a non-profit right after school, co-founded an ebook
+            publisher during university and worked in venture capital. After
+            realizing that my real passion has always been creative work, I
+            decided to focus on software development and worked as freelancer
+            for companies like Lufthansa, Edenspiekermann and McKinsey.
+          </p>
 
-        <p>
-          My current role is leading <a href="https://www.codeandco.com" target="_blank" rel="noopener noreferrer">code&nbsp;&&nbsp;co.&nbsp;Labs</a>.
-        </p>
-      </section>
-
-      <footer>
-        <a href="https://www.github.com/stefankp">GitHub</a>
-        <a href="https://www.linkedin.com/in/stefankp">LinkedIn</a>
-        <a href="https://www.twitter.com/stefankp">Twitter</a>
-      </footer>
+          <p>
+            My current role is building products at
+            <a href="https://www.codeandco.com" target="_blank" rel="noopener noreferrer">code&nbsp;&&nbsp;co</a>.
+          </p>
+        </section>
+      </article>
     </main>
+
+    <footer>
+      <a href="https://www.github.com/stefankp">GitHub</a>
+      <a href="https://www.linkedin.com/in/stefankp">LinkedIn</a>
+      <a href="https://www.twitter.com/stefankp">Twitter</a>
+    </footer>
   </body>
 </html>
